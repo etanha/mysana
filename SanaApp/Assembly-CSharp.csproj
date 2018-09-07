@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{54979E6F-C96A-B3E3-5978-49357067C281}</ProjectGuid>
+    <ProjectGuid>{3545669A-EE80-E043-B73F-6E06764D542E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\Main\ApplicationQuit.cs" />
+     <Compile Include="Assets\Script\Main\GameOverScript.cs" />
      <Compile Include="Assets\Script\Main\Main.cs" />
      <Compile Include="Assets\Script\Main\Main_ButtonSetting.cs" />
      <Compile Include="Assets\Script\Main\Main_LevelManagerUnLocked.cs" />
