@@ -37,7 +37,7 @@ public class Tkhm1_Str1_Frm2_PlayStory : MonoBehaviour {
 
 
 	void Update () {
-		if (audioSource.time > 95f) {
+		if (audioSource.time > 55f) {
 			audioSource.Stop ();
 			StartCoroutine (PlayAudioClipQuestion ());
 		}
