@@ -51,9 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\Main\ApplicationQuit.cs" />
+     <Compile Include="Assets\Script\Main\GameOverScript.cs" />
      <Compile Include="Assets\Script\Main\Main.cs" />
-     <Compile Include="Assets\Script\Main\Main_ButtonSetting.cs" />
-     <Compile Include="Assets\Script\Main\Main_LevelManagerUnLocked.cs" />
+     <Compile Include="Assets\Script\Main\Main_BtnSetting.cs" />
+     <Compile Include="Assets\Script\Main\Main_LevelManager.cs" />
      <Compile Include="Assets\Script\Scene1.cs" />
      <Compile Include="Assets\Script\Tokhmeh1\Game\Game1\Tkm1_Gm1_Main.cs" />
      <Compile Include="Assets\Script\Tokhmeh1\Story\Frame1\Tkhm1_Str1_Frm1_ExitHandler.cs" />
