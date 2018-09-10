@@ -163,20 +163,6 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Frame3FiroozBody
-      rect:
-        serializedVersion: 2
-        x: 787
-        y: 155
-        width: 987
-        height: 2266
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
       name: Frame3FiroozLeftArm
       rect:
         serializedVersion: 2

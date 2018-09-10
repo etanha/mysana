@@ -215,6 +215,72 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1992504682}
+    - target: {fileID: 212955560475600702, guid: 05ca407382c97fb4f9b8d9f7775afeff,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ee6b7074de4188544868c14986d79247,
+        type: 3}
+    - target: {fileID: 212955560475600702, guid: 05ca407382c97fb4f9b8d9f7775afeff,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212422508198918360, guid: 05ca407382c97fb4f9b8d9f7775afeff,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ec14630413478b44f8867762a68cf05a,
+        type: 3}
+    - target: {fileID: 212422508198918360, guid: 05ca407382c97fb4f9b8d9f7775afeff,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212491373797132122, guid: 05ca407382c97fb4f9b8d9f7775afeff,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55f4abe041d0d0448883f2d43cd03a78,
+        type: 3}
+    - target: {fileID: 212491373797132122, guid: 05ca407382c97fb4f9b8d9f7775afeff,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212339425824175264, guid: 05ca407382c97fb4f9b8d9f7775afeff,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: caf42419ebe56d146a55dd01f215c200,
+        type: 3}
+    - target: {fileID: 212339425824175264, guid: 05ca407382c97fb4f9b8d9f7775afeff,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212319177812475406, guid: 05ca407382c97fb4f9b8d9f7775afeff,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a83f88e1acb0a0443a8f7ab378c08daa,
+        type: 3}
+    - target: {fileID: 212319177812475406, guid: 05ca407382c97fb4f9b8d9f7775afeff,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212919217078681612, guid: 05ca407382c97fb4f9b8d9f7775afeff,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 66aad4806adaa0841be61a8deed8bc20,
+        type: 3}
+    - target: {fileID: 212919217078681612, guid: 05ca407382c97fb4f9b8d9f7775afeff,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05ca407382c97fb4f9b8d9f7775afeff, type: 2}
   m_IsPrefabParent: 0

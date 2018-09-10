@@ -1,0 +1,321 @@
+fileFormatVersion: 2
+guid: fa96271d17ff23a4eb2fa707b23a90e6
+timeCreated: 1536575714
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tkhm1_Str_Frm5_Trees_Left
+    21300002: Tkhm1_Str_Frm5_Trees_Center
+    21300004: Tkhm1_Str_Frm5_Trees_Right
+    21300006: Tkhm1_Str_Frm5_LeftTreeBody
+    21300008: Tkhm1_Str_Frm5_CenterTreeBody
+    21300010: Tkhm1_Str_Frm5_RightTreeBody
+    21300012: Tkhm1_Str_Frm5_CenterTreeLeafUp
+    21300014: Tkhm1_Str_Frm5_RightTreeLeafUL
+    21300016: Tkhm1_Str_Frm5_RightTreeLeafUC
+    21300018: Tkhm1_Str_Frm5_RightTreeLeafUR
+    21300020: Tkhm1_Str_Frm5_LeftTreeLeafUL
+    21300022: Tkhm1_Str_Frm5_LeftTreeLeafUC
+    21300024: Tkhm1_Str_Frm5_LeftTreeLeafUR
+    21300026: Tkhm1_Str_Frm5_RightTreeLeafDown
+    21300028: Tkhm1_Str_Frm5_LeftTreeLeafDL
+    21300030: Tkhm1_Str_Frm5_LeftTreeLeafDR
+    21300032: Tkhm1_Str_Frm5_CenterTreeLeafDown
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tkhm1_Str_Frm5_LeftTreeBody
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 343
+        width: 169
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tkhm1_Str_Frm5_CenterTreeBody
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 356
+        width: 169
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tkhm1_Str_Frm5_RightTreeBody
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 437
+        width: 259
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tkhm1_Str_Frm5_CenterTreeLeafUp
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 126
+        width: 207
+        height: 195
+      alignment: 9
+      pivot: {x: 0.7218572, y: 0.07313835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tkhm1_Str_Frm5_RightTreeLeafUL
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 262
+        width: 100
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5861084, y: 0.059387475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tkhm1_Str_Frm5_RightTreeLeafUC
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 282
+        width: 79
+        height: 126
+      alignment: 9
+      pivot: {x: 0.22750507, y: 0.12413025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tkhm1_Str_Frm5_RightTreeLeafUR
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 280
+        width: 88
+        height: 110
+      alignment: 9
+      pivot: {x: 0.20644864, y: 0.10859875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tkhm1_Str_Frm5_LeftTreeLeafUL
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 149
+        width: 111
+        height: 124
+      alignment: 9
+      pivot: {x: 0.83615863, y: 0.14121541}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tkhm1_Str_Frm5_LeftTreeLeafUC
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 152
+        width: 112
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.042240273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tkhm1_Str_Frm5_LeftTreeLeafUR
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 147
+        width: 98
+        height: 117
+      alignment: 9
+      pivot: {x: 0.20711471, y: 0.21787868}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tkhm1_Str_Frm5_RightTreeLeafDown
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 0
+        width: 321
+        height: 260
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02530015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tkhm1_Str_Frm5_LeftTreeLeafDL
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 3
+        width: 158
+        height: 118
+      alignment: 9
+      pivot: {x: 0.9359915, y: 0.12297223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tkhm1_Str_Frm5_LeftTreeLeafDR
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 13
+        width: 94
+        height: 102
+      alignment: 9
+      pivot: {x: 0.30152342, y: 0.10604002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tkhm1_Str_Frm5_CenterTreeLeafDown
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 0
+        width: 185
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.030318635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
