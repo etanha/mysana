@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Tokhmeh1/Story/Common/Sabzak/Thkm1_Str_Cmn_Sabzak.unity
+- path: Assets/Scenes/Tokhmeh1/Story/Frame7/Tkhm1_Str_Frm7_Scene.unity
   isLoaded: 1
   isActive: 1
