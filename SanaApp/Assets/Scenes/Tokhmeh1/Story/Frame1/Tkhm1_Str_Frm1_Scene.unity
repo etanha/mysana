@@ -272,19 +272,73 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 223959998166956306, guid: 4c17825582bd92b4ba00ba8beba6d54c,
-        type: 2}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 2124737572}
     - target: {fileID: 95442873889954752, guid: 4c17825582bd92b4ba00ba8beba6d54c,
         type: 2}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: fd8474e150f0c5b439beec4578f97d2c, type: 2}
+    - target: {fileID: 223959998166956306, guid: 4c17825582bd92b4ba00ba8beba6d54c,
+        type: 2}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2124737572}
+    - target: {fileID: 114970743956655680, guid: 4c17825582bd92b4ba00ba8beba6d54c,
+        type: 2}
+      propertyPath: Can_Back
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114970743956655680, guid: 4c17825582bd92b4ba00ba8beba6d54c,
+        type: 2}
+      propertyPath: Can_Next
+      value: 
+      objectReference: {fileID: 1219863529253900, guid: 05ca407382c97fb4f9b8d9f7775afeff,
+        type: 2}
+    - target: {fileID: 114970743956655680, guid: 4c17825582bd92b4ba00ba8beba6d54c,
+        type: 2}
+      propertyPath: Can_this
+      value: 
+      objectReference: {fileID: 1263453225}
+    - target: {fileID: 114970743956655680, guid: 4c17825582bd92b4ba00ba8beba6d54c,
+        type: 2}
+      propertyPath: scenePrefabLoad
+      value: 
+      objectReference: {fileID: 1683772649}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4c17825582bd92b4ba00ba8beba6d54c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1263453225 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1543768424340008, guid: 4c17825582bd92b4ba00ba8beba6d54c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1263453224}
+--- !u!1 &1683772649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1683772650}
+  m_Layer: 0
+  m_Name: ScenePrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1683772650
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1683772649}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 335.28424, y: 170.86646, z: 186}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2124737569
 GameObject:
   m_ObjectHideFlags: 0

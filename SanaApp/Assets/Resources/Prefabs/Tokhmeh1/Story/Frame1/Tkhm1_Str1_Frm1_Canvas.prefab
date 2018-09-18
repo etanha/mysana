@@ -283,6 +283,7 @@ GameObject:
   - component: {fileID: 223959998166956306}
   - component: {fileID: 114911892696587034}
   - component: {fileID: 114655902302513016}
+  - component: {fileID: 114970743956655680}
   m_Layer: 5
   m_Name: Tkhm1_Str1_Frm1_Canvas
   m_TagString: Untagged
@@ -934,6 +935,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b92bcc4e0f4f01b4d8b6dd798e6ceed1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114970743956655680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1543768424340008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca99b963b323c4f46a86c8b2eef04606, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ReleazedLevel: 0
+  Can_Next: {fileID: 0}
+  Can_Back: {fileID: 0}
+  scenePrefabLoad: {fileID: 0}
+  Can_this: {fileID: 0}
 --- !u!212 &212058996997559240
 SpriteRenderer:
   m_ObjectHideFlags: 1

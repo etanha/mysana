@@ -1,12 +1,8 @@
 Android
 PlayerPath?
-C:/Users/Jariteh/Desktop/SanaApp.apk
+D:/Unity/Project/Apk/SanaApp_970626_02.apk
 SceneListBegin?
-Assets/Scenes/Main/Menu.unity
-Assets/Scenes/Level2.unity
-Assets/Scenes/Level3.unity
-Assets/Scenes/Level4.unity
-Assets/Scenes/Level5.unity
+Assets/Scenes/Tokhmeh1/Story/Common/Sabzak/Thkm1_Str_Cmn_Sabzak.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 4b12dd839b2293f8457cd67cc3610b85 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
