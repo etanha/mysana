@@ -18,7 +18,7 @@ public class Main_BtnSetting : MonoBehaviour {
 
 	void Start () {
 		//PlayerPrefs.DeleteAll ();
-		ObjAnim = GameObject.Find("Canvas");
+		ObjAnim = GameObject.Find("Can_BetweenFrame");
 	}
 
 	public void GoToMenu(){
@@ -39,7 +39,7 @@ public class Main_BtnSetting : MonoBehaviour {
 	}
 
 	IEnumerator FadeInAnim(int Next_Back){
-		ObjAnim.GetComponent<Animator> ().Play ("FadeIn");
+		ObjAnim.GetComponent<Animator> ().Play ("Main_Btw_FadeInAnim");
 		yield return new WaitForSeconds (1f);
 		Destroy (Can_this);
 		if (Next_Back == 1) {
@@ -55,7 +55,7 @@ public class Main_BtnSetting : MonoBehaviour {
 	}
 
 	IEnumerator FadeOutAnim(){
-		ObjAnim.GetComponent<Animator> ().Play ("FadeOut");
+		ObjAnim.GetComponent<Animator> ().Play ("Main_Btw_FadeOutAnim");
 		yield return new WaitForSeconds (1f);
 	}
 }
