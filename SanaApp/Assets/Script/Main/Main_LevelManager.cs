@@ -14,7 +14,10 @@ public class Main_LevelManager : MonoBehaviour {
 	public GameObject scenePrefabLoad;
 	public GameObject Can_Menu;
 
+	Camera MainCamera;
+
 	void Start () {
+		MainCamera = GameObject.Find ("Main Camera").GetComponent<Camera>();
 		if (PlayerPrefs.GetInt ("Level") >= level) {
 			Image.enabled = false;
 		}
@@ -23,5 +26,7 @@ public class Main_LevelManager : MonoBehaviour {
 	public void LevelSelect(){
 		Destroy(Can_Menu);
 		scenePrefabLoad = Instantiate (scenePrefab) as GameObject;
+		Canvas can = scenePrefab.GetComponent<Canvas>();
+		can.worldCamera = MainCamera;
 	}
 }

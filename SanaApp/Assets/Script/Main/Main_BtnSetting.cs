@@ -14,11 +14,12 @@ public class Main_BtnSetting : MonoBehaviour {
 
 	GameObject ObjAnim;
 	Animator TransAnim;
-
+	Camera MainCamera;
 
 	void Start () {
 		//PlayerPrefs.DeleteAll ();
 		ObjAnim = GameObject.Find("Can_BetweenFrame");
+		MainCamera = GameObject.Find ("Main Camera").GetComponent<Camera>();
 	}
 
 	public void GoToMenu(){
@@ -40,12 +41,17 @@ public class Main_BtnSetting : MonoBehaviour {
 
 	IEnumerator FadeInAnim(int Next_Back){
 		ObjAnim.GetComponent<Animator> ().Play ("Main_Btw_FadeInAnim");
-		yield return new WaitForSeconds (1f);
+		yield return new WaitForSeconds (2f);
 		Destroy (Can_this);
 		if (Next_Back == 1) {
 			scenePrefabLoad = Instantiate (Can_Next) as GameObject;
-		}else
+			Canvas can = Can_Next.GetComponent<Canvas> ();
+			can.worldCamera = MainCamera;
+		} else {
 			scenePrefabLoad = Instantiate (Can_Back) as GameObject;
+			Canvas can = Can_Next.GetComponent<Canvas> ();
+			can.worldCamera = MainCamera;
+		}
 
 		FadeOut ();
 	}
@@ -56,6 +62,6 @@ public class Main_BtnSetting : MonoBehaviour {
 
 	IEnumerator FadeOutAnim(){
 		ObjAnim.GetComponent<Animator> ().Play ("Main_Btw_FadeOutAnim");
-		yield return new WaitForSeconds (1f);
+		yield return new WaitForSeconds (2f);
 	}
 }

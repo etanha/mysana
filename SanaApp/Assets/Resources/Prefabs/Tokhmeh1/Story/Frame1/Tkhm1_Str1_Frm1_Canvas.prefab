@@ -1044,7 +1044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ReleazedLevel: 2
-  Can_Next: {fileID: 1219863529253900, guid: 05ca407382c97fb4f9b8d9f7775afeff, type: 2}
+  Can_Next: {fileID: 1402372263649334, guid: 05ca407382c97fb4f9b8d9f7775afeff, type: 2}
   Can_Back: {fileID: 0}
   scenePrefabLoad: {fileID: 0}
   Can_this: {fileID: 1543768424340008}
