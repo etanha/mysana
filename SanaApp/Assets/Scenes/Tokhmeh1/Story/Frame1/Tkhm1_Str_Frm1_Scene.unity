@@ -272,21 +272,21 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 95442873889954752, guid: 4c17825582bd92b4ba00ba8beba6d54c,
-        type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: fd8474e150f0c5b439beec4578f97d2c, type: 2}
-    - target: {fileID: 114970743956655680, guid: 4c17825582bd92b4ba00ba8beba6d54c,
-        type: 2}
-      propertyPath: scenePrefabLoad
-      value: 
-      objectReference: {fileID: 1683772649}
     - target: {fileID: 223959998166956306, guid: 4c17825582bd92b4ba00ba8beba6d54c,
         type: 2}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2124737572}
+    - target: {fileID: 114970743956655680, guid: 4c17825582bd92b4ba00ba8beba6d54c,
+        type: 2}
+      propertyPath: scenePrefabLoad
+      value: 
+      objectReference: {fileID: 1683772649}
+    - target: {fileID: 95442873889954752, guid: 4c17825582bd92b4ba00ba8beba6d54c,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: fd8474e150f0c5b439beec4578f97d2c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4c17825582bd92b4ba00ba8beba6d54c, type: 2}
   m_IsPrefabParent: 0

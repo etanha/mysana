@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 public class Main_BtnSetting : MonoBehaviour {
 	[SerializeField]
 	private int ReleazedLevel;
-	public GameObject Can_Next;
-	public GameObject Can_Back;
+	public GameObject Can_Next = null;
+	public GameObject Can_Back = null;
 
-	public GameObject scenePrefabLoad;
-	public GameObject Can_this;
+	public GameObject scenePrefabLoad = null;
+	public GameObject Can_this = null;
 
 	GameObject ObjAnim;
 	Animator TransAnim;
