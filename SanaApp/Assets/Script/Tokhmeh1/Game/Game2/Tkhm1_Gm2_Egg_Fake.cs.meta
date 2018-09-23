@@ -5,7 +5,15 @@ licenseType: Pro
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - GObject_Egg_Original: {instanceID: 0}
+  - Img_Egg_Fake_ForGround: {instanceID: 0}
+  - Img_FDA_Logo: {instanceID: 0}
+  - Img_Standard_Logo: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - audioClipQuestion_Standard_Logo: {instanceID: 0}
+  - audioClipQuestion_FDA_Logo: {instanceID: 0}
+  - audioClipWrongAnswer: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

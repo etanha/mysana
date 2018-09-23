@@ -1,10 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Main\Main_BtnSetting.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\tamrin\New Unity Project\Assets\script\story1.cs">
     <Files>
-      <File FileName="Assets\Script\Tokhmeh1\Game\Game1\Tkm1_Gm1_Main.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Main\Main_BtnSetting.cs" Line="65" Column="37" />
-      <File FileName="Assets\Script\Main\Main_LevelManager.cs" Line="20" Column="71" />
+      <File FileName="Assets\Script\Tokhmeh1\Game\Game2\Tkm1_Gm2_Main.cs" Line="35" Column="26" />
+      <File FileName="..\..\..\tamrin\New Unity Project\Assets\script\story1_q1_alt2.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\tamrin\New Unity Project\Assets\script\story1.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
