@@ -63,6 +63,7 @@
      <Compile Include="Assets\Script\Tokhmeh1\Game\Game2\Tkm1_Gm2_Main.cs" />
      <Compile Include="Assets\Script\Tokhmeh1\Story\Frame1\Tkhm1_Str1_Frm1_ExitHandler.cs" />
      <Compile Include="Assets\Script\Tokhmeh1\Story\Frame1\Tkhm1_Str1_Frm1_MovieHandler.cs" />
+     <Compile Include="Assets\Script\Tokhmeh1\Story\Frame1\Tkhm1_Str1_Frm1_PlayStory.cs" />
      <Compile Include="Assets\Script\Tokhmeh1\Story\Frame2\Tkhm1_Str1_Frm2_ExitHandler.cs" />
      <Compile Include="Assets\Script\Tokhmeh1\Story\Frame2\Tkhm1_Str1_Frm2_PlayStory.cs" />
      <Compile Include="Assets\Script\Tokhmeh1\Story\Frame3\Tkhm1_Str1_Frm3_ExitHandler.cs" />
