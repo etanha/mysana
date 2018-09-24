@@ -13,7 +13,6 @@ public class Tkhm1_Str1_Frm2_PlayStory : MonoBehaviour {
 	public GameObject GOAlternativeBubbleTokhme;
 	public GameObject GOAlternativeBubbleBazi;
 
-	public bool isZoomed=false;
 	public Animator panelZoomAnim;
 
 
@@ -29,7 +28,6 @@ public class Tkhm1_Str1_Frm2_PlayStory : MonoBehaviour {
 		GOAlternativeBubbleBazi.SetActive (false);
 
 		//TV is not zoomed
-		isZoomed = false;
 		panelZoomAnim.SetBool ("isZoomed", false);
 
 	}
@@ -37,6 +35,7 @@ public class Tkhm1_Str1_Frm2_PlayStory : MonoBehaviour {
 
 
 	void Update () {
+		//if (audioSource.time > 95f) {
 		if (audioSource.time > 55f) {
 			audioSource.Stop ();
 			StartCoroutine (PlayAudioClipQuestion ());
@@ -47,7 +46,6 @@ public class Tkhm1_Str1_Frm2_PlayStory : MonoBehaviour {
 	IEnumerator PlayAudioClipQuestion()
 	{
 
-		isZoomed = true;
 		panelZoomAnim.SetBool ("isZoomed", true);
 
 		audioSource.PlayOneShot (audioClipQuestion);

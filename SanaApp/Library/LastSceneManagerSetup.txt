@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Tokhmeh1/Story/Frame3/Tkhm1_Str_Frm3_Scene.unity
+=======
+- path: Assets/Scenes/Tokhmeh1/Story/Frame1/Tkhm1_Str_Frm1_Scene.unity
+>>>>>>> 6f2657602b56e246d231337ff5a0375b94d86b30
   isLoaded: 1
   isActive: 1
