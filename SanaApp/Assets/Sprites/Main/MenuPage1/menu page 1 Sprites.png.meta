@@ -1,16 +1,17 @@
 fileFormatVersion: 2
-guid: 4c1345e94ccad1a4f8915a1a91e92199
-timeCreated: 1537902478
+guid: 7e2468c29decf9741ab67f927f056532
+timeCreated: 1538139243
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: menu page 1 Sprites_Horse
-    21300002: menu page 1 Sprites_Parrot
-    21300004: menu page 1 Sprites_Hands
-    21300006: menu page 1 Sprites_SweepHand
-    21300008: menu page 1 Sprites_Books
-    21300010: menu page 1 Sprites_Book2
-    21300012: menu page 1 Sprites_Book1
+    21300002: menu page 1 Sprites_Notebooks
+    21300004: menu page 1 Sprites_Parrot
+    21300006: menu page 1 Sprites_Hands
+    21300008: menu page 1 Sprites_SweepHand
+    21300010: menu page 1 Sprites_Books
+    21300012: menu page 1 Sprites_Book2
+    21300014: menu page 1 Sprites_Book1
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -111,12 +112,26 @@ TextureImporter:
       name: menu page 1 Sprites_Horse
       rect:
         serializedVersion: 2
-        x: 22
-        y: 269
+        x: 597
+        y: 459
         width: 87
         height: 86
       alignment: 9
-      pivot: {x: 0.39143765, y: 0.01363355}
+      pivot: {x: 0.39898962, y: 0.020785665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: menu page 1 Sprites_Notebooks
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 445
+        width: 170
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -125,10 +140,10 @@ TextureImporter:
       name: menu page 1 Sprites_Parrot
       rect:
         serializedVersion: 2
-        x: 296
-        y: 193
+        x: 870
+        y: 395
         width: 138
-        height: 208
+        height: 197
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,8 +154,8 @@ TextureImporter:
       name: menu page 1 Sprites_Hands
       rect:
         serializedVersion: 2
-        x: 47
-        y: 202
+        x: 621
+        y: 393
         width: 26
         height: 31
       alignment: 0
@@ -153,12 +168,12 @@ TextureImporter:
       name: menu page 1 Sprites_SweepHand
       rect:
         serializedVersion: 2
-        x: 106
-        y: 203
+        x: 680
+        y: 395
         width: 31
-        height: 6
+        height: 5
       alignment: 9
-      pivot: {x: 0.95371175, y: 0.5}
+      pivot: {x: 0.9568639, y: 0.4670593}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,8 +182,8 @@ TextureImporter:
       name: menu page 1 Sprites_Books
       rect:
         serializedVersion: 2
-        x: 28
-        y: 53
+        x: 602
+        y: 244
         width: 93
         height: 112
       alignment: 0
@@ -181,8 +196,8 @@ TextureImporter:
       name: menu page 1 Sprites_Book2
       rect:
         serializedVersion: 2
-        x: 218
-        y: 42
+        x: 792
+        y: 231
         width: 61
         height: 124
       alignment: 0
@@ -195,10 +210,10 @@ TextureImporter:
       name: menu page 1 Sprites_Book1
       rect:
         serializedVersion: 2
-        x: 355
-        y: 42
-        width: 60
-        height: 133
+        x: 930
+        y: 232
+        width: 59
+        height: 134
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
