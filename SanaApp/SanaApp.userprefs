@@ -1,16 +1,25 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Main\Main_LevelManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Tokhmeh1\Game\Game3\Tkm1_Gm3_Phone.cs">
     <Files>
-      <File FileName="Assets\Script\Tokhmeh1\Game\Game2\Tkm1_Gm2_Main.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Tokhmeh1\Game\Game2\Tkhm1_Gm2_Egg_Fake.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Tokhmeh1\Game\Game2\Tkhm1_Gm2_Egg_Original.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Tokhmeh1\Game\Game1\Tkm1_Gm1_Main.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Tokhmeh1\Story\Frame2\Tkhm1_Str1_Frm2_PlayStory.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Tokhmeh1\Story\Frame1\Tkhm1_Str1_Frm1_PlayStory.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Main\Main_BtnSetting.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Main\Main_LevelManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Main\Main_BtnSetting.cs" Line="15" Column="4" />
+      <File FileName="Assets\Script\Main\Main_LevelManager.cs" Line="18" Column="2" />
+      <File FileName="Assets\Script\Main\BookSelect.cs" Line="19" Column="47" />
+      <File FileName="Assets\Script\Tokhmeh1\Story\Frame1\Tkhm1_Str1_Frm1_PlayStory.cs" Line="16" Column="22" />
+      <File FileName="Assets\Script\Tokhmeh1\Game\Game3\Tkm1_Gm3_Phone.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="SanaApp" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

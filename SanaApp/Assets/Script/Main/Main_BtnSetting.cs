@@ -12,6 +12,8 @@ public class Main_BtnSetting : MonoBehaviour {
 	public GameObject scenePrefabLoad = null;
 	public GameObject Can_this = null;
 
+	//public Animator[] Animators;
+
 	GameObject ObjAnim;
 	Animator TransAnim;
 	Camera MainCamera;
@@ -29,9 +31,18 @@ public class Main_BtnSetting : MonoBehaviour {
 
 	public void GoToNextLevel(){
 		PlayerPrefs.SetInt ("Level",ReleazedLevel);
+
+
 		if (Can_this.GetComponent<AudioSource> () != null) {
 			Can_this.GetComponent<AudioSource> ().Stop ();
 		}
+
+		/*for (int i = 0; i < Animators.Length; i++) {
+			Animators [i].Rebind ();
+			Animators [i].enabled = false;
+			Debug.Log (Animators [i]);
+		}*/
+
 		StartCoroutine (FadeInAnim(1));
 	}
 
@@ -40,7 +51,7 @@ public class Main_BtnSetting : MonoBehaviour {
 	}
 
 	IEnumerator FadeInAnim(int Next_Back){
-		ObjAnim.GetComponent<Animator> ().Play ("Main_Btw_FadeInAnim");
+		ObjAnim.GetComponent<Animator> ().Play ("FeatherAnim01");
 		yield return new WaitForSeconds (2f);
 		Destroy (Can_this);
 		if (Next_Back == 1) {
@@ -61,7 +72,7 @@ public class Main_BtnSetting : MonoBehaviour {
 	}
 
 	IEnumerator FadeOutAnim(){
-		ObjAnim.GetComponent<Animator> ().Play ("Main_Btw_FadeOutAnim");
+		ObjAnim.GetComponent<Animator> ().Play ("FeatherAnim70");
 		yield return new WaitForSeconds (2f);
 	}
 }

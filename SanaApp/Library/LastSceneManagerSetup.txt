@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Main/Menu.unity
+- path: Assets/Scenes/Tokhmeh1/Game/Game3/Tkhm1_Gm3_Scene.unity
   isLoaded: 1
   isActive: 1

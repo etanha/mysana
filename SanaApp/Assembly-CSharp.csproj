@@ -63,6 +63,11 @@
      <Compile Include="Assets\Script\Tokhmeh1\Game\Game2\Tkhm1_Gm2_Egg_Fake.cs" />
      <Compile Include="Assets\Script\Tokhmeh1\Game\Game2\Tkhm1_Gm2_Egg_Original.cs" />
      <Compile Include="Assets\Script\Tokhmeh1\Game\Game2\Tkm1_Gm2_Main.cs" />
+     <Compile Include="Assets\Script\Tokhmeh1\Game\Game3\Tkm1_Gm3_Door.cs" />
+     <Compile Include="Assets\Script\Tokhmeh1\Game\Game3\Tkm1_Gm3_Main.cs" />
+     <Compile Include="Assets\Script\Tokhmeh1\Game\Game3\Tkm1_Gm3_Phone.cs" />
+     <Compile Include="Assets\Script\Tokhmeh1\Game\Game3\Tkm1_Gm3_Pill.cs" />
+     <Compile Include="Assets\Script\Tokhmeh1\Game\Game3\Tkm1_Gm3_Water.cs" />
      <Compile Include="Assets\Script\Tokhmeh1\Story\Frame1\Tkhm1_Str1_Frm1_ExitHandler.cs" />
      <Compile Include="Assets\Script\Tokhmeh1\Story\Frame1\Tkhm1_Str1_Frm1_MovieHandler.cs" />
      <Compile Include="Assets\Script\Tokhmeh1\Story\Frame1\Tkhm1_Str1_Frm1_PlayStory.cs" />
