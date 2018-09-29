@@ -1,17 +1,19 @@
 fileFormatVersion: 2
 guid: 7e2468c29decf9741ab67f927f056532
-timeCreated: 1538139243
+timeCreated: 1538221957
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: menu page 1 Sprites_Horse
-    21300002: menu page 1 Sprites_Notebooks
-    21300004: menu page 1 Sprites_Parrot
-    21300006: menu page 1 Sprites_Hands
-    21300008: menu page 1 Sprites_SweepHand
-    21300010: menu page 1 Sprites_Books
-    21300012: menu page 1 Sprites_Book2
-    21300014: menu page 1 Sprites_Book1
+    21300000: menu page 1 Sprites_NoteBooks2
+    21300002: menu page 1 Sprites_Horse
+    21300004: menu page 1 Sprites_Notebooks
+    21300006: menu page 1 Sprites_Parrot
+    21300008: menu page 1 Sprites_Hands
+    21300010: menu page 1 Sprites_SweepHand
+    21300012: menu page 1 Sprites_NoteBooks3
+    21300014: menu page 1 Sprites_Books
+    21300016: menu page 1 Sprites_Book2
+    21300018: menu page 1 Sprites_Book1
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -109,15 +111,29 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+      name: menu page 1 Sprites_NoteBooks2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 435
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
       name: menu page 1 Sprites_Horse
       rect:
         serializedVersion: 2
-        x: 597
-        y: 459
+        x: 596
+        y: 460
         width: 87
         height: 86
       alignment: 9
-      pivot: {x: 0.39898962, y: 0.020785665}
+      pivot: {x: 0.3908032, y: 0.014687117}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -131,7 +147,7 @@ TextureImporter:
         width: 170
         height: 106
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,7 +161,7 @@ TextureImporter:
         width: 138
         height: 197
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -159,7 +175,7 @@ TextureImporter:
         width: 26
         height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,7 +189,21 @@ TextureImporter:
         width: 31
         height: 5
       alignment: 9
-      pivot: {x: 0.9568639, y: 0.4670593}
+      pivot: {x: 0.9734044, y: 0.4541382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: menu page 1 Sprites_NoteBooks3
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 245
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,7 +217,7 @@ TextureImporter:
         width: 93
         height: 112
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,11 +227,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 792
-        y: 231
+        y: 235
         width: 61
         height: 124
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,7 +245,7 @@ TextureImporter:
         width: 59
         height: 134
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
