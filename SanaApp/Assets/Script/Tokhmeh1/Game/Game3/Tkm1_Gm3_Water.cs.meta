@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 9472f30392a22a5429b54ebb6105b2d9
+=======
 guid: 57409cee05a7a354f85dc7c6fa8eac32
+>>>>>>> e87eabef3c61aaca1231c7af8e18a747a5c2af22
 timeCreated: 1538084324
 licenseType: Pro
 MonoImporter:

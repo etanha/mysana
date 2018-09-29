@@ -52,7 +52,7 @@ public class Main_BtnSetting : MonoBehaviour {
 
 	IEnumerator FadeInAnim(int Next_Back){
 		ObjAnim.GetComponent<Animator> ().Play ("FeatherAnim01");
-		yield return new WaitForSeconds (2f);
+		yield return new WaitForSeconds (2.30f);
 		Destroy (Can_this);
 		if (Next_Back == 1) {
 			scenePrefabLoad = Instantiate (Can_Next) as GameObject;

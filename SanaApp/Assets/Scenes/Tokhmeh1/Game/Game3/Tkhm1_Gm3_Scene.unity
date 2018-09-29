@@ -228,7 +228,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PitcherAnim: {fileID: 99721851}
-  water: {fileID: 1418605287}
 --- !u!1 &102299300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1496,7 +1495,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1418605284}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -4.7}
   m_LocalScale: {x: 0.9861111, y: 0.9861111, z: 0.9861111}
   m_Children: []
   m_Father: {fileID: 99721850}
@@ -1554,7 +1553,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1418605284}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -1941,9 +1940,8 @@ GameObject:
   - component: {fileID: 1882315341}
   - component: {fileID: 1882315346}
   - component: {fileID: 1882315345}
-  - component: {fileID: 1882315344}
   - component: {fileID: 1882315343}
-  - component: {fileID: 1882315342}
+  - component: {fileID: 1882315344}
   m_Layer: 5
   m_Name: Img_SmallTelephone
   m_TagString: Untagged
@@ -1969,23 +1967,6 @@ RectTransform:
   m_AnchoredPosition: {x: 77, y: -44}
   m_SizeDelta: {x: 55, y: 58}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &1882315342
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1882315340}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e548450e0bd9bc34d93553c1329e8953, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &1882315343
 MonoBehaviour:
   m_ObjectHideFlags: 0

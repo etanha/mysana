@@ -6,11 +6,11 @@ using UnityEngine.UI;
 public class Tkm1_Gm3_Water : MonoBehaviour {
 
 	public 	Animator PitcherAnim;
-	public Image water;
+	//public Image water;
 
 	void Start () {
 		PitcherAnim = GetComponent <Animator> ();
-		water.enabled =true;
+		//water.enabled =true;
 	}
 
 

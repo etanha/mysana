@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 114702535205538494}
   - component: {fileID: 114529811648903020}
   - component: {fileID: 114103573551270426}
-  m_Layer: 9
+  m_Layer: 5
   m_Name: Image_Book1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,7 +134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4168323743695060}
   - component: {fileID: 212359164131291210}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Tkhm1_Str_Cmn_Sabzak_BallRast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150,7 +150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4252668305260646}
   - component: {fileID: 212422920382428992}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Tkhm1_Str_Cmn_Sabzak_Pa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,7 +166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4163106678178026}
   - component: {fileID: 212517046421207782}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Tkhm1_Str_Cmn_Sabzak_BallChap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4664982400809980}
   - component: {fileID: 212347131457042940}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: menu page 1 Sprites_SweepHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4663864829100572}
   - component: {fileID: 212202822091388476}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Tkhm1_Str_Cmn_Sabzak_NokPayiin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,7 +320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4887670080499264}
   - component: {fileID: 212642616110631080}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: menu page 1 Sprites_Books
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,7 +336,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4539848020695318}
   - component: {fileID: 212181197154987648}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Tkhm1_Str_Cmn_Sabzak_Cheshm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,7 +352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4090783263022206}
   - component: {fileID: 212335090990634544}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Tkhm1_Str_Cmn_Sabzak_Sar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -368,7 +368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4323879346085718}
   - component: {fileID: 212593003177244928}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: menu page 1 Sprites_Notebooks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4641740243480216}
   - component: {fileID: 212941259076721256}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Tkhm1_Str_Cmn_Sabzak_NokeBala
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,7 +400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4648536801953776}
   - component: {fileID: 212144741487423590}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Tkhm1_Str_Cmn_Sabzak_Badan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -434,7 +434,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4482258773286056}
   - component: {fileID: 212920201166376364}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: menu page 1 Sprites_Parrot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -488,7 +488,7 @@ GameObject:
   - component: {fileID: 222946712595639602}
   - component: {fileID: 114524565601879314}
   - component: {fileID: 114128610012182480}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: Image_Book2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -504,7 +504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4030514375574770}
   - component: {fileID: 212328576301026362}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: menu page 1 Sprites_Horse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -537,7 +537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4967847618634698}
   - component: {fileID: 212863823180943316}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Tkhm1_Str_Cmn_Sabzak_Abroo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -553,7 +553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4229902123665044}
   - component: {fileID: 212333324596877694}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: menu page 1 Sprites_Hands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
