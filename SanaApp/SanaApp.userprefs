@@ -1,12 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Tokhmeh1\Story\Frame1\Tkhm1_Str1_Frm1_PlayStory.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Tokhmeh1\Story\Frame3-1\Tkhm1_Str1_Frm3_1_PlayStory.cs">
     <Files>
-      <File FileName="Assets\Script\Main\Main_BtnSetting.cs" Line="15" Column="4" />
+      <File FileName="Assets\Script\Main\Main_BtnSetting.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\Main\Main_LevelManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\Main\BookSelect.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Tokhmeh1\Story\Frame1\Tkhm1_Str1_Frm1_PlayStory.cs" Line="14" Column="5" />
+      <File FileName="Assets\Script\Tokhmeh1\Story\Frame1\Tkhm1_Str1_Frm1_PlayStory.cs" Line="9" Column="1" />
       <File FileName="Assets\Script\Tokhmeh1\Game\Game3\Tkm1_Gm3_Phone.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Tokhmeh1\Story\Frame2\Tkhm1_Str1_Frm2_PlayStory.cs" Line="33" Column="26" />
+      <File FileName="Assets\Script\Tokhmeh1\Story\Frame3\Tkhm1_Str1_Frm3_PlayStory.cs" Line="22" Column="3" />
+      <File FileName="Assets\Script\Tokhmeh1\Story\Frame3-1\Tkhm1_Str1_Frm3_1_PlayStory.cs" Line="25" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

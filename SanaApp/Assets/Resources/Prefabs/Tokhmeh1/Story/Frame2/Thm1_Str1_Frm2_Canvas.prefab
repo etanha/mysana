@@ -71,6 +71,7 @@ GameObject:
   - component: {fileID: 224044668230323478}
   - component: {fileID: 222391973816487898}
   - component: {fileID: 114089800537742218}
+  - component: {fileID: 114332649855953032}
   - component: {fileID: 114291839682900130}
   m_Layer: 0
   m_Name: Img_TokhmeAlterativeBubble
@@ -551,7 +552,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 10e6a7a13e765424889e9fdef113e767, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -585,7 +586,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 61987b27a9b03184dbccd6f6edc7756f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -692,9 +693,36 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114089800537742218}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114332649855953032}
+        m_MethodName: GoToNextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114332649855953032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1312820078043596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca99b963b323c4f46a86c8b2eef04606, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ReleazedLevel: 1
+  Can_Next: {fileID: 1440131648776598, guid: 1991aa8c379e54742838f1ca4f7fac21, type: 2}
+  Can_Back: {fileID: 0}
+  scenePrefabLoad: {fileID: 0}
+  Can_this: {fileID: 1402372263649334}
 --- !u!114 &114342883405262754
 MonoBehaviour:
   m_ObjectHideFlags: 1
