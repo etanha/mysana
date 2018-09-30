@@ -113,7 +113,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &1022693880
+--- !u!1001 &552923638
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -210,7 +210,7 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 95442873889954752, guid: 4c17825582bd92b4ba00ba8beba6d54c,
+    - target: {fileID: 95226895967755680, guid: 4c17825582bd92b4ba00ba8beba6d54c,
         type: 2}
       propertyPath: m_Controller
       value: 
