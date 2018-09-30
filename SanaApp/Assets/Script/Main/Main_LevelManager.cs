@@ -9,13 +9,10 @@ public class Main_LevelManager : MonoBehaviour {
 	private int level;
 
 	[SerializeField]
-	public Image Image; 
 	public GameObject scenePrefab;
 	public GameObject scenePrefabLoad;
 	public GameObject Can_Menu;
 	public string SelectBookBool;
-
-
 
 	Camera MainCamera;
 	Animator BookAnim;
@@ -25,9 +22,10 @@ public class Main_LevelManager : MonoBehaviour {
 		MainCamera = GameObject.Find ("Main Camera").GetComponent<Camera>();
 		BookAnim = GameObject.Find ("BG").GetComponent<Animator>();
 
-		if (PlayerPrefs.GetInt ("Level") >= level) {
-			//Image.enabled = false;
-		}
+		Debug.Log (PlayerPrefs.GetInt ("Level").ToString ());
+		string level = PlayerPrefs.GetInt ("Level").ToString (); 
+		//BookAnim.SetBool ("MenuPage1Book" + level + "Read");
+		
 	}
 
 	public void LevelSelect(){
@@ -36,7 +34,7 @@ public class Main_LevelManager : MonoBehaviour {
 
 	IEnumerator BookStart(){
 		BookAnim.SetBool(SelectBookBool, true);
-		yield return new WaitForSeconds (6f);
+		yield return new WaitForSeconds (4f);
 
 		Destroy(Can_Menu);
 		scenePrefabLoad = Instantiate (scenePrefab) as GameObject;

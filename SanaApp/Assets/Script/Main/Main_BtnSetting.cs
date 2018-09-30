@@ -32,7 +32,6 @@ public class Main_BtnSetting : MonoBehaviour {
 	public void GoToNextLevel(){
 		PlayerPrefs.SetInt ("Level",ReleazedLevel);
 
-
 		if (Can_this.GetComponent<AudioSource> () != null) {
 			Can_this.GetComponent<AudioSource> ().Stop ();
 		}

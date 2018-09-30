@@ -7,9 +7,11 @@ public class Tkhm1_Str1_Frm1_PlayStory : MonoBehaviour {
 	public AudioSource audioSource;
 	public AudioClip audioClipStoryFrm1;
 
+	//public Animator[] Animations;
 
 	// Use this for initialization
 	void Start () {
+		//for(int i=0; i<Animations;)
 		audioSource = GetComponent<AudioSource> ();
 
 		audioClipStoryFrm1 = audioSource.clip;
