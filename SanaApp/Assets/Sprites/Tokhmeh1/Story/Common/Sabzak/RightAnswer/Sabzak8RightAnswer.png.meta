@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: b8dd3c8649a096a46a0af68e26623a29
+timeCreated: 1538395250
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sabzak8RightAnswer_nokeBala
+    21300002: Sabzak8RightAnswer_NokePaein
+    21300004: Sabzak8RightAnswer_L1
+    21300006: Sabzak8RightAnswer_Body
+    21300008: Sabzak8RightAnswer_R1
+    21300010: Sabzak8RightAnswer_R2
+    21300012: Sabzak8RightAnswer_L2
+    21300014: Sabzak8RightAnswer_R3
+    21300016: Sabzak8RightAnswer_L3
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sabzak8RightAnswer_nokeBala
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2664
+        width: 695
+        height: 777
+      alignment: 9
+      pivot: {x: 0.057462446, y: 0.30969474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sabzak8RightAnswer_NokePaein
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 2936
+        width: 451
+        height: 256
+      alignment: 9
+      pivot: {x: 0.0016451072, y: 0.56931305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sabzak8RightAnswer_L1
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 2009
+        width: 1121
+        height: 1310
+      alignment: 9
+      pivot: {x: -0.006520798, y: 0.16137303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sabzak8RightAnswer_Body
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 23
+        width: 1867
+        height: 2561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sabzak8RightAnswer_R1
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 1881
+        width: 1125
+        height: 991
+      alignment: 9
+      pivot: {x: 0.005795139, y: 0.21948513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sabzak8RightAnswer_R2
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 956
+        width: 1244
+        height: 794
+      alignment: 9
+      pivot: {x: -0.003984359, y: 0.36591408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sabzak8RightAnswer_L2
+      rect:
+        serializedVersion: 2
+        x: 3802
+        y: 929
+        width: 1122
+        height: 858
+      alignment: 9
+      pivot: {x: 0.009745388, y: 0.26561844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sabzak8RightAnswer_R3
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 122
+        width: 1529
+        height: 642
+      alignment: 9
+      pivot: {x: 0.004853113, y: 0.52763873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sabzak8RightAnswer_L3
+      rect:
+        serializedVersion: 2
+        x: 3821
+        y: 202
+        width: 1007
+        height: 596
+      alignment: 9
+      pivot: {x: 0.0007464836, y: 0.47022802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

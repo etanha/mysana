@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: d5471d3e6b53aa34d96da2b9e9be1e3b
+timeCreated: 1538400522
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sabzak9Deldard_RWing
+    21300002: Sabzak9Deldard_Head1
+    21300004: Sabzak9Deldard_Head2
+    21300006: Sabzak9Deldard_LWing
+    21300008: Sabzak9Deldard_Body
+    21300010: Sabzak9Deldard_Head3
+    21300012: Sabzak9Deldard_dom
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sabzak9Deldard_RWing
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1582
+        width: 1145
+        height: 981
+      alignment: 9
+      pivot: {x: 0.10424793, y: 0.69935167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sabzak9Deldard_Head1
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1541
+        width: 1215
+        height: 1288
+      alignment: 9
+      pivot: {x: 0.24089678, y: 0.10745002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sabzak9Deldard_Head2
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 1468
+        width: 1085
+        height: 1309
+      alignment: 9
+      pivot: {x: 0.24941766, y: 0.1101036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sabzak9Deldard_LWing
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 722
+        width: 481
+        height: 698
+      alignment: 9
+      pivot: {x: 0.9759935, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sabzak9Deldard_Body
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 47
+        width: 1347
+        height: 1336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sabzak9Deldard_Head3
+      rect:
+        serializedVersion: 2
+        x: 2873
+        y: 127
+        width: 942
+        height: 1310
+      alignment: 9
+      pivot: {x: 0.21644181, y: 0.09947801}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sabzak9Deldard_dom
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 43
+        width: 936
+        height: 576
+      alignment: 9
+      pivot: {x: 0.96373564, y: 0.6490579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
