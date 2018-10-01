@@ -272,14 +272,26 @@ AnimationClip:
       - serializedVersion: 2
         time: 0
         value: {x: 0, y: 0, z: 360}
-        inSlope: {x: 0, y: 0, z: -17.985012}
-        outSlope: {x: 0, y: 0, z: -17.985012}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 15
+        value: {x: 0, y: 0, z: 90}
+        inSlope: {x: 0, y: 0, z: -18}
+        outSlope: {x: 0, y: 0, z: -18}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 17.5
+        value: {x: 0, y: 0, z: 45}
+        inSlope: {x: 0, y: 0, z: -17.9404}
+        outSlope: {x: 0, y: 0, z: -17.9404}
         tangentMode: 0
       - serializedVersion: 2
         time: 20.016666
         value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 0, z: -17.985012}
-        outSlope: {x: 0, y: 0, z: -17.985012}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -1250,6 +1262,18 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
+        time: 15
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 17.5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
         time: 20.016666
         value: 0
         inSlope: 0
@@ -1267,6 +1291,18 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 15
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 17.5
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1290,15 +1326,27 @@ AnimationClip:
       - serializedVersion: 2
         time: 0
         value: 360
-        inSlope: -17.985012
-        outSlope: -17.985012
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 15
+        value: 90
+        inSlope: -18
+        outSlope: -18
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 17.5
+        value: 45
+        inSlope: -17.9404
+        outSlope: -17.9404
         tangentMode: 34
       - serializedVersion: 2
         time: 20.016666
         value: 0
-        inSlope: -17.985012
-        outSlope: -17.985012
-        tangentMode: 34
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -1722,7 +1770,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Image_MenuPage1/menu page 1 Sprites_SweepHand
+    path: Image_MenuPage1/menu page 1 Sprites_Parrot
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1732,7 +1780,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Image_MenuPage1/menu page 1 Sprites_SweepHand
+    path: Image_MenuPage1/menu page 1 Sprites_Parrot
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1742,7 +1790,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Image_MenuPage1/menu page 1 Sprites_SweepHand
+    path: Image_MenuPage1/menu page 1 Sprites_Parrot
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1782,7 +1830,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Image_MenuPage1/menu page 1 Sprites_Parrot
+    path: Image_MenuPage1/menu page 1 Sprites_SweepHand
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1792,7 +1840,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Image_MenuPage1/menu page 1 Sprites_Parrot
+    path: Image_MenuPage1/menu page 1 Sprites_SweepHand
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1802,7 +1850,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Image_MenuPage1/menu page 1 Sprites_Parrot
+    path: Image_MenuPage1/menu page 1 Sprites_SweepHand
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0

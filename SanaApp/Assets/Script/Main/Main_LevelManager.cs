@@ -37,8 +37,9 @@ public class Main_LevelManager : MonoBehaviour {
 		yield return new WaitForSeconds (4f);
 
 		Destroy(Can_Menu);
-		scenePrefabLoad = Instantiate (scenePrefab) as GameObject;
 		Canvas can = scenePrefab.GetComponent<Canvas>();
 		can.worldCamera = MainCamera;
+		scenePrefabLoad = Instantiate (scenePrefab) as GameObject;
+
 	}
 }

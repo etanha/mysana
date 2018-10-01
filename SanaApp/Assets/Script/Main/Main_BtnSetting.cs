@@ -54,16 +54,13 @@ public class Main_BtnSetting : MonoBehaviour {
 		yield return new WaitForSeconds (2.30f);
 		Destroy (Can_this);
 		if (Next_Back == 1) {
-			
+			Canvas can = Can_Next.GetComponent<Canvas> ();
+			can.worldCamera = MainCamera;
 			scenePrefabLoad = Instantiate (Can_Next) as GameObject;
-
-
-			Canvas can = Can_Next.GetComponent<Canvas> ();
-			can.worldCamera = MainCamera;
 		} else {
-			scenePrefabLoad = Instantiate (Can_Back) as GameObject;
 			Canvas can = Can_Next.GetComponent<Canvas> ();
 			can.worldCamera = MainCamera;
+			scenePrefabLoad = Instantiate (Can_Back) as GameObject;
 		}
 
 		FadeOut ();

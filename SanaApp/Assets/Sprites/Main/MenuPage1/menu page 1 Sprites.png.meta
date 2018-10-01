@@ -14,6 +14,7 @@ TextureImporter:
     21300014: menu page 1 Sprites_Books
     21300016: menu page 1 Sprites_Book2
     21300018: menu page 1 Sprites_Book1
+    21300020: menu page 1 Sprites_Book
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -114,12 +115,12 @@ TextureImporter:
       name: menu page 1 Sprites_NoteBooks2
       rect:
         serializedVersion: 2
-        x: 404
-        y: 435
-        width: 167
-        height: 121
+        x: 406
+        y: 413
+        width: 181
+        height: 135
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -128,12 +129,12 @@ TextureImporter:
       name: menu page 1 Sprites_Horse
       rect:
         serializedVersion: 2
-        x: 596
-        y: 460
-        width: 87
-        height: 86
+        x: 594
+        y: 458
+        width: 90
+        height: 90
       alignment: 9
-      pivot: {x: 0.3908032, y: 0.014687117}
+      pivot: {x: 0.41767645, y: 0.02565918}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -143,11 +144,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 693
-        y: 445
+        y: 424
         width: 170
-        height: 106
+        height: 135
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -156,12 +157,12 @@ TextureImporter:
       name: menu page 1 Sprites_Parrot
       rect:
         serializedVersion: 2
-        x: 870
-        y: 395
-        width: 138
-        height: 197
+        x: 868
+        y: 393
+        width: 142
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,12 +171,12 @@ TextureImporter:
       name: menu page 1 Sprites_Hands
       rect:
         serializedVersion: 2
-        x: 621
-        y: 393
-        width: 26
-        height: 31
+        x: 619
+        y: 392
+        width: 29
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +185,12 @@ TextureImporter:
       name: menu page 1 Sprites_SweepHand
       rect:
         serializedVersion: 2
-        x: 680
-        y: 395
-        width: 31
-        height: 5
+        x: 679
+        y: 394
+        width: 33
+        height: 7
       alignment: 9
-      pivot: {x: 0.9734044, y: 0.4541382}
+      pivot: {x: 0.99352103, y: 0.47097343}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -198,12 +199,12 @@ TextureImporter:
       name: menu page 1 Sprites_NoteBooks3
       rect:
         serializedVersion: 2
-        x: 414
-        y: 245
-        width: 167
-        height: 121
+        x: 417
+        y: 232
+        width: 165
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -212,12 +213,12 @@ TextureImporter:
       name: menu page 1 Sprites_Books
       rect:
         serializedVersion: 2
-        x: 602
-        y: 244
-        width: 93
-        height: 112
+        x: 591
+        y: 208
+        width: 117
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +227,12 @@ TextureImporter:
       name: menu page 1 Sprites_Book2
       rect:
         serializedVersion: 2
-        x: 792
-        y: 235
-        width: 61
-        height: 124
+        x: 790
+        y: 193
+        width: 100
+        height: 190
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -240,12 +241,26 @@ TextureImporter:
       name: menu page 1 Sprites_Book1
       rect:
         serializedVersion: 2
-        x: 930
-        y: 232
-        width: 59
-        height: 134
+        x: 909
+        y: 188
+        width: 96
+        height: 203
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: menu page 1 Sprites_Book
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 203
+        width: 68
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
