@@ -22,5 +22,9 @@ public class BookSelect : MonoBehaviour {
     {
         anim.SetBool("isBook2Selected", true);
     }
+    public void SelectNoteBook1()
+    {
+        anim.SetBool("bool1", false); ///////////for test only////// temp /////
+    }
 
 }

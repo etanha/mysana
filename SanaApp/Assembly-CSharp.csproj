@@ -74,6 +74,8 @@
      <Compile Include="Assets\Script\Tokhmeh1\Story\Frame2\Tkhm1_Str1_Frm2_ExitHandler.cs" />
      <Compile Include="Assets\Script\Tokhmeh1\Story\Frame2\Tkhm1_Str1_Frm2_PlayStory.cs" />
      <Compile Include="Assets\Script\Tokhmeh1\Story\Frame3\Tkhm1_Str1_Frm3_ExitHandler.cs" />
+     <Compile Include="Assets\Script\Tokhmeh1\Story\Frame3\Tkhm1_Str1_Frm3_PlayStory.cs" />
+     <Compile Include="Assets\Script\Tokhmeh1\Story\Frame3-1\Tkhm1_Str1_Frm3_1_PlayStory.cs" />
      <Compile Include="Assets\Script\Tokhmeh1\Story\Frame4\Tkhm1_Str1_Frm4_ExitHandler.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

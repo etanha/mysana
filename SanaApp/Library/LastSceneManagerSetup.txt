@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Tokhmeh1/Story/Frame0/Tkhm1_Str_Frm0_Scene.unity
+- path: Assets/Scenes/Tokhmeh1/Story/Frame3/Tkhm1_Str_Frm3_Scene.unity
   isLoaded: 1
   isActive: 1

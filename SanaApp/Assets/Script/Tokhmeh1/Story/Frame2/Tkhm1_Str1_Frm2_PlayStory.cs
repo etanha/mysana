@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Tkhm1_Str1_Frm2_PlayStory : MonoBehaviour {
 	public AudioSource audioSource;
 	public AudioClip audioClipStory;
+	public AudioClip audioClipAdv;
 	public AudioClip audioClipQuestion;
 	public AudioClip audioClipAlternativTokhme;
 	public AudioClip audioClipAlternativBazi;
@@ -17,11 +18,6 @@ public class Tkhm1_Str1_Frm2_PlayStory : MonoBehaviour {
 
 
 	void Start () {
-		//play story
-		audioSource = GetComponent<AudioSource> ();
-		audioSource.time = 48f;
-		audioClipStory = audioSource.clip;
-		audioSource.Play ();
 
 		//invisible the alternatives
 		GOAlternativeBubbleTokhme.SetActive (false);
@@ -30,16 +26,55 @@ public class Tkhm1_Str1_Frm2_PlayStory : MonoBehaviour {
 		//TV is not zoomed
 		panelZoomAnim.SetBool ("isZoomed", false);
 
+		//play story
+		audioSource = GetComponent<AudioSource> ();
+		StartCoroutine (PlayAudioClipStory());
+		/*
+		audioSource.time = 32f;
+		audioClipStory = audioSource.clip;
+		audioSource.Play (); 
+
+		//audioClipStory = audioSource.clip;
+		//audioSource.PlayScheduled (32d);
+
+		//play Adv
+		audioClipAdv = audioSource.clip;
+		audioSource.Play ();
+		*/
 	}
-	
 
 
 	void Update () {
+		//pakhsh tabligh
 		//if (audioSource.time > 95f) {
-		if (audioSource.time > 55f) {
+		/*if (audioSource.time > 38.5f) {
 			audioSource.Stop ();
 			StartCoroutine (PlayAudioClipQuestion ());
-		}
+		}*/
+	}
+
+
+	IEnumerator PlayAudioClipStory()
+	{
+		audioSource.time = 32f;
+		audioClipStory = audioSource.clip;
+		audioSource.Play (); 
+
+		//audioSource.PlayOneShot (audioClipQuestion);
+		yield return new WaitForSeconds (6.5f);
+		StartCoroutine (PlayAudioClipAdv ());
+	}
+
+
+	IEnumerator PlayAudioClipAdv()
+	{
+		
+		//audioClipAdv = audioSource.clip;
+		//audioSource.Play (); 
+
+		audioSource.PlayOneShot (audioClipAdv);
+		yield return new WaitForSeconds (audioClipAdv.length);
+		StartCoroutine (PlayAudioClipQuestion ());
 	}
 
 
