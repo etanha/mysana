@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: af4ada49e6f491f468f09765fdfb6f2d
+timeCreated: 1538418947
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Firooz7KhabidehDeldard_Head
+    21300002: Firooz7KhabidehDeldard_Le
+    21300004: Firooz7KhabidehDeldard_Lp
+    21300006: Firooz7KhabidehDeldard_Leye
+    21300008: Firooz7KhabidehDeldard_Rh
+    21300010: Firooz7KhabidehDeldard_Re
+    21300012: Firooz7KhabidehDeldard_Rp
+    21300014: Firooz7KhabidehDeldard_Reye
+    21300016: Firooz7KhabidehDeldard_Lh
+    21300018: Firooz7KhabidehDeldard_Lip
+    21300020: Firooz7KhabidehDeldard_Boddy
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Firooz7KhabidehDeldard_Head
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 917
+        width: 774
+        height: 726
+      alignment: 9
+      pivot: {x: 0.9808071, y: 0.54370975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Firooz7KhabidehDeldard_Le
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1396
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Firooz7KhabidehDeldard_Lp
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1365
+        width: 79
+        height: 105
+      alignment: 9
+      pivot: {x: 0.2258378, y: 0.5000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Firooz7KhabidehDeldard_Leye
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 1377
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Firooz7KhabidehDeldard_Rh
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1083
+        width: 215
+        height: 506
+      alignment: 9
+      pivot: {x: 0.36582145, y: 0.026794676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Firooz7KhabidehDeldard_Re
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1181
+        width: 69
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Firooz7KhabidehDeldard_Rp
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1204
+        width: 73
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2626435, y: 0.49097595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Firooz7KhabidehDeldard_Reye
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1211
+        width: 90
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Firooz7KhabidehDeldard_Lh
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 1280
+        width: 198
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5437098, y: 0.8979092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Firooz7KhabidehDeldard_Lip
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 871
+        width: 49
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Firooz7KhabidehDeldard_Boddy
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 23
+        width: 1938
+        height: 715
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

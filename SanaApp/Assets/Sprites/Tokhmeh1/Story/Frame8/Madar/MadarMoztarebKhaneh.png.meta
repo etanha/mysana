@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: 771ca157c2728774da170a6d0eacca92
+timeCreated: 1538424351
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MadarMoztarebKhaneh_Head
+    21300002: MadarMoztarebKhaneh_Righte
+    21300004: MadarMoztarebKhaneh_Lefte
+    21300006: MadarMoztarebKhaneh_RightEye
+    21300008: MadarMoztarebKhaneh_LeftEye
+    21300010: MadarMoztarebKhaneh_5
+    21300012: MadarMoztarebKhaneh_LeftFinger
+    21300014: MadarMoztarebKhaneh_RightArm
+    21300016: MadarMoztarebKhaneh_Body
+    21300018: MadarMoztarebKhaneh_LeftHand
+    21300020: MadarMoztarebKhaneh_RightHand
+    21300022: MadarMoztarebKhaneh_LeftArm
+    21300024: MadarMoztarebKhaneh_RightFinger
+    21300026: MadarMoztarebKhaneh_RightFoot
+    21300028: MadarMoztarebKhaneh_LeftFoot
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MadarMoztarebKhaneh_Head
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2527
+        width: 808
+        height: 954
+      alignment: 9
+      pivot: {x: 0.49999973, y: -0.008390095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MadarMoztarebKhaneh_Righte
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 3350
+        width: 119
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MadarMoztarebKhaneh_Lefte
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 3350
+        width: 118
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MadarMoztarebKhaneh_RightEye
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 3202
+        width: 138
+        height: 89
+      alignment: 9
+      pivot: {x: 0.53847694, y: 0.44033918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MadarMoztarebKhaneh_LeftEye
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 3193
+        width: 143
+        height: 105
+      alignment: 9
+      pivot: {x: 0.46286842, y: 0.483145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MadarMoztarebKhaneh_LeftFinger
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 2753
+        width: 182
+        height: 343
+      alignment: 9
+      pivot: {x: 0.5324975, y: 0.051656738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MadarMoztarebKhaneh_RightArm
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1743
+        width: 226
+        height: 627
+      alignment: 9
+      pivot: {x: 0.8925676, y: 0.9622322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MadarMoztarebKhaneh_Body
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 122
+        width: 1222
+        height: 2376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MadarMoztarebKhaneh_LeftHand
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 2115
+        width: 324
+        height: 550
+      alignment: 9
+      pivot: {x: 0.97463423, y: 0.03757901}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MadarMoztarebKhaneh_RightHand
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1181
+        width: 177
+        height: 533
+      alignment: 9
+      pivot: {x: 0.49999964, y: 0.9771699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MadarMoztarebKhaneh_LeftArm
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 1498
+        width: 286
+        height: 491
+      alignment: 9
+      pivot: {x: 0.89293325, y: 0.8734322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MadarMoztarebKhaneh_RightFinger
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 782
+        width: 207
+        height: 339
+      alignment: 9
+      pivot: {x: 0.3285594, y: 0.9710812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MadarMoztarebKhaneh_RightFoot
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 116
+        width: 259
+        height: 286
+      alignment: 9
+      pivot: {x: 0.77403915, y: 0.8515721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MadarMoztarebKhaneh_LeftFoot
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 116
+        width: 257
+        height: 286
+      alignment: 9
+      pivot: {x: 0.20081255, y: 0.91361433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
