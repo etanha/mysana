@@ -54,7 +54,10 @@ public class Main_BtnSetting : MonoBehaviour {
 		yield return new WaitForSeconds (2.30f);
 		Destroy (Can_this);
 		if (Next_Back == 1) {
+			
 			scenePrefabLoad = Instantiate (Can_Next) as GameObject;
+
+
 			Canvas can = Can_Next.GetComponent<Canvas> ();
 			can.worldCamera = MainCamera;
 		} else {

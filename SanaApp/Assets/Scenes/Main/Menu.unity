@@ -3869,6 +3869,11 @@ Prefab:
       propertyPath: ReleazedLevel
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 95142017202857810, guid: cd94b6b969f8142499f4671ffa31a9ec,
+        type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd94b6b969f8142499f4671ffa31a9ec, type: 2}
   m_IsPrefabParent: 0
@@ -5716,7 +5721,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 83a2c03eddfb1a741970922a7020ec9a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
