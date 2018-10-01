@@ -830,6 +830,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 0}
   audioClipStory: {fileID: 8300000, guid: 0d61f38114c27c040bc9b925aef06f97, type: 3}
+  audioClipAdv: {fileID: 0}
   audioClipQuestion: {fileID: 8300000, guid: 505505011144d8d4f83bdeb75c76efba, type: 3}
   audioClipAlternativTokhme: {fileID: 8300000, guid: 304b915f20f8c3a48b062c04ac98749e,
     type: 3}
@@ -1591,14 +1592,12 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 0.24
   m_AudioOutputMode: 1
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
