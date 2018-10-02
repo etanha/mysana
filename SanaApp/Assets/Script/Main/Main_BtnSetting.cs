@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class Main_BtnSetting : MonoBehaviour {
 	[SerializeField]
@@ -12,7 +13,9 @@ public class Main_BtnSetting : MonoBehaviour {
 	public GameObject scenePrefabLoad = null;
 	public GameObject Can_this = null;
 
-	//public Animator[] Animators;
+	public AudioSource[] audioSource; 
+
+	public VideoPlayer[] videoPlayer;
 
 	GameObject ObjAnim;
 	Animator TransAnim;
@@ -32,20 +35,34 @@ public class Main_BtnSetting : MonoBehaviour {
 	public void GoToNextLevel(){
 		PlayerPrefs.SetInt ("Level",ReleazedLevel);
 
-		if (Can_this.GetComponent<AudioSource> () != null) {
-			Can_this.GetComponent<AudioSource> ().Stop ();
+		for (int a = 0; a < audioSource.Length; a++) {
+			if (audioSource[a] != null) {
+				audioSource[a].Stop();
+			}
 		}
 
-		/*for (int i = 0; i < Animators.Length; i++) {
-			Animators [i].Rebind ();
-			Animators [i].enabled = false;
-			Debug.Log (Animators [i]);
-		}*/
+		for (int v = 0; v < videoPlayer.Length; v++) {
+			if (videoPlayer[v] != null) {
+				videoPlayer[v].Stop();
+			}
+		}
 
 		StartCoroutine (FadeInAnim(1));
 	}
 
 	public void GoToBackLevel(){
+		for (int a = 0; a < audioSource.Length; a++) {
+			if (audioSource[a] != null) {
+				audioSource[a].Stop();
+			}
+		}
+
+		for (int v = 0; v < videoPlayer.Length; v++) {
+			if (videoPlayer[v] != null) {
+				videoPlayer[v].Stop();
+			}
+		}
+
 		StartCoroutine (FadeInAnim(0));
 	}
 
@@ -58,7 +75,7 @@ public class Main_BtnSetting : MonoBehaviour {
 			can.worldCamera = MainCamera;
 			scenePrefabLoad = Instantiate (Can_Next) as GameObject;
 		} else {
-			Canvas can = Can_Next.GetComponent<Canvas> ();
+			Canvas can = Can_Back.GetComponent<Canvas> ();
 			can.worldCamera = MainCamera;
 			scenePrefabLoad = Instantiate (Can_Back) as GameObject;
 		}

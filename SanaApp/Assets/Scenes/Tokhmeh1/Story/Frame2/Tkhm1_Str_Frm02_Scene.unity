@@ -113,7 +113,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &266144395
+--- !u!1001 &1225493188
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -210,11 +210,11 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 223378108609876088, guid: 05ca407382c97fb4f9b8d9f7775afeff,
+    - target: {fileID: 114452611732414052, guid: 05ca407382c97fb4f9b8d9f7775afeff,
         type: 2}
-      propertyPath: m_Camera
+      propertyPath: scenePrefabLoad
       value: 
-      objectReference: {fileID: 1992504682}
+      objectReference: {fileID: 1582061645}
     - target: {fileID: 114332649855953032, guid: 05ca407382c97fb4f9b8d9f7775afeff,
         type: 2}
       propertyPath: scenePrefabLoad
@@ -225,6 +225,11 @@ Prefab:
       propertyPath: scenePrefabLoad
       value: 
       objectReference: {fileID: 1582061645}
+    - target: {fileID: 223378108609876088, guid: 05ca407382c97fb4f9b8d9f7775afeff,
+        type: 2}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1992504682}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 05ca407382c97fb4f9b8d9f7775afeff, type: 2}
   m_IsPrefabParent: 0

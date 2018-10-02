@@ -343,7 +343,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 273707212}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 430611001}
+        m_MethodName: GoToNextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &273707212
@@ -621,6 +632,7 @@ GameObject:
   - component: {fileID: 430610999}
   - component: {fileID: 430610998}
   - component: {fileID: 430610997}
+  - component: {fileID: 430611001}
   - component: {fileID: 430610996}
   m_Layer: 5
   m_Name: Tkhm1_Str1_Frm3_Canvas
@@ -729,6 +741,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &430611001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114533303641333572, guid: 1991aa8c379e54742838f1ca4f7fac21,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 430610995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca99b963b323c4f46a86c8b2eef04606, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ReleazedLevel: 0
+  Can_Next: {fileID: 1907484346458922, guid: a5d6a2aa86514fc4cbba31d9aeb08400, type: 2}
+  Can_Back: {fileID: 1402372263649334, guid: 05ca407382c97fb4f9b8d9f7775afeff, type: 2}
+  scenePrefabLoad: {fileID: 2054886628}
+  Can_this: {fileID: 430610995}
+  audioSource:
+  - {fileID: 1340316773}
+  videoPlayer: []
 --- !u!1 &466694765
 GameObject:
   m_ObjectHideFlags: 0
@@ -1257,7 +1289,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 991803817}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 430611001}
+        m_MethodName: GoToBackLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &991803817
@@ -1814,7 +1857,8 @@ CanvasRenderer:
 --- !u!114 &1340316772
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 114643761443247858, guid: 1991aa8c379e54742838f1ca4f7fac21,
+    type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1340316768}
   m_Enabled: 1
@@ -1827,7 +1871,8 @@ MonoBehaviour:
 --- !u!82 &1340316773
 AudioSource:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 82299699629857852, guid: 1991aa8c379e54742838f1ca4f7fac21,
+    type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1340316768}
   m_Enabled: 1
@@ -2512,6 +2557,34 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &2054886628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2054886629}
+  m_Layer: 0
+  m_Name: ScenePrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2054886629
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2054886628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -71.77575, y: 11.050551, z: -232.03397}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2105559795
 GameObject:
   m_ObjectHideFlags: 0

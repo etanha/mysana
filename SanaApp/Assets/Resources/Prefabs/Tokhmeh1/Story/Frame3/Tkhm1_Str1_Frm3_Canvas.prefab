@@ -220,6 +220,7 @@ GameObject:
   - component: {fileID: 223895467348630678}
   - component: {fileID: 114695062987684092}
   - component: {fileID: 114325401522799626}
+  - component: {fileID: 114533303641333572}
   - component: {fileID: 114116878593220904}
   m_Layer: 5
   m_Name: Tkhm1_Str1_Frm3_Canvas
@@ -366,6 +367,8 @@ GameObject:
   - component: {fileID: 224309745761978460}
   - component: {fileID: 222981702327734942}
   - component: {fileID: 114871379199571436}
+  - component: {fileID: 82299699629857852}
+  - component: {fileID: 114643761443247858}
   m_Layer: 5
   m_Name: Image_Frame3_BackGround
   m_TagString: Untagged
@@ -790,6 +793,86 @@ Transform:
   m_Father: {fileID: 224285442583352552}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82299699629857852
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1621576691866636}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0f61e39c1922ed343905a7fec25a9f65, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &95002756515153122
 Animator:
   serializedVersion: 3
@@ -974,6 +1057,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669f0d343edf8e5408b443d27a63bb33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114533303641333572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1440131648776598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca99b963b323c4f46a86c8b2eef04606, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ReleazedLevel: 0
+  Can_Next: {fileID: 1907484346458922, guid: a5d6a2aa86514fc4cbba31d9aeb08400, type: 2}
+  Can_Back: {fileID: 1402372263649334, guid: 05ca407382c97fb4f9b8d9f7775afeff, type: 2}
+  scenePrefabLoad: {fileID: 0}
+  Can_this: {fileID: 1440131648776598}
+  audioSource:
+  - {fileID: 82299699629857852}
+  videoPlayer: []
 --- !u!114 &114546972433699164
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1012,9 +1114,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114264019952045520}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114533303641333572}
+        m_MethodName: GoToNextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114643761443247858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1621576691866636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b42c2c979674eca4ab476a70db89da04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 82299699629857852}
+  audioClipStoryFrm3: {fileID: 8300000, guid: 0f61e39c1922ed343905a7fec25a9f65, type: 3}
 --- !u!114 &114695062987684092
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1128,7 +1254,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114797487561041510}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114533303641333572}
+        m_MethodName: GoToBackLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!212 &212018449384623178

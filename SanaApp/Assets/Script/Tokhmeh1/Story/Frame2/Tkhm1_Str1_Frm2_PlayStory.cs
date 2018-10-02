@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class Tkhm1_Str1_Frm2_PlayStory : MonoBehaviour {
 	public AudioSource audioSource;
 	public AudioClip audioClipStory;

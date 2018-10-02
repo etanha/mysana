@@ -1559,6 +1559,12 @@ MonoBehaviour:
   Can_Back: {fileID: 0}
   scenePrefabLoad: {fileID: 0}
   Can_this: {fileID: 1543768424340008}
+  audioSource:
+  - {fileID: 82788456988355718}
+  - {fileID: 82740314506233290}
+  - {fileID: 82037537234171266}
+  videoPlayer:
+  - {fileID: 328972524070368030}
 --- !u!212 &212058996997559240
 SpriteRenderer:
   m_ObjectHideFlags: 1
